@@ -26,8 +26,9 @@
 
     .banner{height: 200px;width: 100%;}
     .banner .pice{background: 50% 100% no-repeat;background-size: cover;height:100%}
-    .content{margin-top: 60px;border-top: 1px solid #dadada;overflow: hidden}
-    .content .box{width: 45%;overflow: hidden;margin-top: 0;float: left}
+    .content{margin-top: 60px;border-top: 1px solid #dadada;height: 250px;}
+    .content .box{width: 45%;margin-top: 0;float: left;position: relative}
+    .content .box .entrance{position: absolute;height: 60px;width: 60px;top:-30px;left: 45%;}
     .floatright{float: right!important;}
     .datepick{display: block;float: left;width: 12%;margin-right: 5%;}
     .datepick span{display: block;text-align: center;padding: 5px;}
@@ -70,9 +71,6 @@
     <!--  content  -->
     <div class="content autoPadding">
         <div class="box">
-            <div class="entrance">
-                媒体报道
-            </div>
             <p class="newslabel">
                 <div class="datepick">
                     <span class="day">25</span>
@@ -100,16 +98,14 @@
             </p>
 
             <p class="newslabel">
-            <div class="datepick">
-                <span class="day">25</span>
-                <span class="month">2月</span>
-            </div>
-            <div class="newsdesc">
-                <p class="title">图解：国务院常务会议--促进科技与经济深度融合</p>
-                <p class="desc">导读：国务院总理李克强2月17日主持召开国务院常务会议，听取
-                    2015年全国两会建议提案办理工作回报，汇聚众智提高公共决策水
-                    平；确定支持科技成果转移转化</p>
-            </div>
+                <div class="datepick">
+                    <span class="day">25</span>
+                    <span class="month">2月</span>
+                </div>
+                <div class="newsdesc">
+                    <p class="title">图解：国务院常务会议--促进科技与经济深度融合</p>
+                    <p class="desc">导读：国务院总理李克强2月17日主持召开国务院常务会议，听取2015年全国两会建议提案办理工作回报，汇聚众智提高公共决策水平；确定支持科技成果转移转化</p>
+                </div>
             </p>
         </div>
 
@@ -156,10 +152,84 @@
         </div>
     </div>
 
-    <div class="content">
-        <div class="box"></div>
-        <div class="box"></div>
-    </div>
+    <div class="content autoPadding">
+            <div class="box">
+                <p class="newslabel">
+                <div class="datepick">
+                    <span class="day">25</span>
+                    <span class="month">2月</span>
+                </div>
+                <div class="newsdesc">
+                    <p class="title">图解：国务院常务会议--促进科技与经济深度融合</p>
+                    <p class="desc">导读：国务院总理李克强2月17日主持召开国务院常务会议，听取
+                        2015年全国两会建议提案办理工作回报，汇聚众智提高公共决策水
+                        平；确定支持科技成果转移转化</p>
+                </div>
+                </p>
+
+                <p class="newslabel">
+                <div class="datepick">
+                    <span class="day">25</span>
+                    <span class="month">2月</span>
+                </div>
+                <div class="newsdesc">
+                    <p class="title">图解：国务院常务会议--促进科技与经济深度融合</p>
+                    <p class="desc">导读：国务院总理李克强2月17日主持召开国务院常务会议，听取
+                        2015年全国两会建议提案办理工作回报，汇聚众智提高公共决策水
+                        平；确定支持科技成果转移转化</p>
+                </div>
+                </p>
+
+                <p class="newslabel">
+                <div class="datepick">
+                    <span class="day">25</span>
+                    <span class="month">2月</span>
+                </div>
+                <div class="newsdesc">
+                    <p class="title">图解：国务院常务会议--促进科技与经济深度融合</p>
+                    <p class="desc">导读：国务院总理李克强2月17日主持召开国务院常务会议，听取2015年全国两会建议提案办理工作回报，汇聚众智提高公共决策水平；确定支持科技成果转移转化</p>
+                </div>
+                </p>
+            </div>
+            <div class="box floatright">
+                <p class="newslabel">
+                <div class="datepick">
+                    <span class="day">25</span>
+                    <span class="month">2月</span>
+                </div>
+                <div class="newsdesc">
+                    <p class="title">图解：国务院常务会议--促进科技与经济深度融合</p>
+                    <p class="desc">导读：国务院总理李克强2月17日主持召开国务院常务会议，听取
+                        2015年全国两会建议提案办理工作回报，汇聚众智提高公共决策水
+                        平；确定支持科技成果转移转化</p>
+                </div>
+                </p>
+
+                <p class="newslabel">
+                <div class="datepick">
+                    <span class="day">25</span>
+                    <span class="month">2月</span>
+                </div>
+                <div class="newsdesc">
+                    <p class="title">图解：国务院常务会议--促进科技与经济深度融合</p>
+                    <p class="desc">导读：国务院总理李克强2月17日主持召开国务院常务会议，听取
+                        2015年全国两会建议提案办理工作回报，汇聚众智提高公共决策水
+                        平；确定支持科技成果转移转化</p>
+                </div>
+                </p>
+
+                <p class="newslabel">
+                <div class="datepick">
+                    <span class="day">25</span>
+                    <span class="month">2月</span>
+                </div>
+                <div class="newsdesc">
+                    <p class="title">图解：国务院常务会议--促进科技与经济深度融合</p>
+                    <p class="desc">导读：国务院总理李克强2月17日主持召开国务院常务会议，听取2015年全国两会建议提案办理工作回报，汇聚众智提高公共决策水平；确定支持科技成果转移转化</p>
+                </div>
+                </p>
+            </div>
+        </div>
 </body>
 </html>
 
