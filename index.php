@@ -27,12 +27,15 @@
     );
     require('./widget/functions.php')
 ?>
-<!-- 头部 -->
-<?php include './widget/head.php'?>
-    <!-- 顶部 -->
-    <?php include './widget/nav.php'?>
+<?php getHead('园区首页','./UI/logo.jpg')?>
+    <!--  banner  -->
+    <?php getBanner('./UI/banner.jpg')?>
     <!--  content  -->
     <div class="content autoPadding">
+        <div class="entrances">
+            <div class="entrance">入口</div>
+            <div class="entrance">入口</div>
+        </div>
         <?php getNewBox($news)?>
         <?php getNewBox($news,"floatright")?>
     </div>
@@ -42,4 +45,4 @@
         <?php getNewBox($news,"floatright")?>
     </div>
     <!-- 底部 -->
-    <?php include './widget/foot.php'?>
+    <?php getFoot()?>
