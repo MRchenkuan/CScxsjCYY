@@ -1,7 +1,6 @@
-html{font-size: 12px;font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;}
+html{font-size: 12px;font-family: Consolas, "Liberation Mono","微软雅黑" , Menlo, Courier, monospace;}
 body{min-width: 800px;}
 body,ul,a{padding: 0;margin: 0;list-style: none;text-decoration: none;color:#202020}
-div{border:1px dashed grey}
 
 #head{background-color: #fff;position: relative}
 .autoPadding{padding: 0 10%;width: 80%}
@@ -42,10 +41,24 @@ div{border:1px dashed grey}
 .entrance .wrap{width: 100px;height: 100%;margin: auto;}
 .entrance .title{color:#202020;transition:all .3s ease;height:50%;font-size: 18px;width: 100%;margin: auto;display: block}
 .entrance .wrap:hover .title{color: #fff;text-shadow: #202020 0 0 5px;}
-.entrance .more{width: 30px;border-top: 3px solid #202020;color: #3a8fbd;padding: 15px 5px 0 5px;position: relative;margin: 0 auto;display: block;}
+.entrance .more{width: 40px;border-top: 3px solid #202020;color: #3a8fbd;padding-top: 8px;position: relative;margin: 0 auto;display: block;font-size: 14px;}
 .entrance .wrap:hover .more:before{transition:width .3s linear;width: 100%;left:0}
 .entrance .more:before{content: ' ';transition:width .3s linear; width: 0;position: absolute;top:-3px;left:auto;right: 0;border-top: 3px solid #3a8fbd}
 
+.companyIntro{line-height: 2;overflow: hidden;box-shadow: #202020 0 0 1px;border-radius: 5px;overflow: hidden;width: 30%;height: 250px;float: left;position: relative}
+.companyIntro .intro{padding: 20px;}
+.companyIntro .express{width: 120px;height: 80px;float: left;background: 50% 50% no-repeat;background-size: contain;}
+.links{position: absolute;bottom: 0;height: 60px;width: 100%}
+.links div{float: left;width: 33.3%;height: 100%;color: #fff}
+.links .blue{background-color: #3a8fbd  }
+.links .red{background-color: #e84c00 }
+.links .gren{background-color: #1ab554 }
+
+.companys{width: 60%;float: right;height: 250px;}
+.company{transition: all .5s ease;float: left;width: 21%;margin: 2%;height: 60px;background-size: cover;background: 50% 50% no-repeat;box-shadow: #888 0 0 1px;border-radius: 5px;}
+.company:hover{box-shadow: #202020 0 0 5px;}
 /*底部样式*/
-.footlink{height: 100px;background-color: #333;color: #fff;}
+.introduction{background: 50% 50% no-repeat;height: 100%;}
+.footlink{padding: 20px 10%;;height: 80px;background-color: #333;color: #fff;}
+.footlink p{padding: 0;margin: 0;line-height: 40px}
 .bottomshadow{box-shadow: 0 5px 5px 0 #202020;}

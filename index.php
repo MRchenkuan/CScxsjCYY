@@ -87,11 +87,12 @@
                 </div>
             </div>
         </div>
+        <div class="introduction" style="background-image: url('./UI/express3.jpg');"></div>
     </div>
 
     <!--  入驻企业部分  -->
-    <div class="content bottomshadow">
-        <div class="entrances fullwidth">
+    <div class="content bottomshadow autoPadding" style="height: 300px;">
+        <div class="entrances">
             <div class="entrance fullwidth">
                 <div class="wrap">
                     <a href="javascript:///">
@@ -101,7 +102,38 @@
                 </div>
             </div>
         </div>
+        <div class="companyIntro">
+            <div class="intro">
+                <div class="express" style="background-image: url('./UI/companys/express2_06.jpg')"></div>
+                招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商
+                商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商
+                商招商招商招商招商招商<span class="nowNav"> 查看更多>> </span>
+            </div>
+            <div class="links">
+                <div class="blue">招商政策</div>
+                <div class="red">招商对象</div>
+                <div class="gren">申请入驻</div>
+            </div>
+        </div>
+
+        <div class="companys">
+            <div class="company" style="background-image: url('./UI/companys/express2_06.jpg')"></div>
+            <div class="company" style="background-image: url('./UI/companys/express2_08.jpg')"></div>
+            <div class="company" style="background-image: url('./UI/companys/express2_10.jpg')"></div>
+            <div class="company" style="background-image: url('./UI/companys/express2_15.jpg')"></div>
+            <div class="company" style="background-image: url('./UI/companys/express2_16.jpg')"></div>
+            <div class="company" style="background-image: url('./UI/companys/express2_17.jpg')"></div>
+            <div class="company" style="background-image: url('./UI/companys/express2_22.jpg')"></div>
+            <div class="company" style="background-image: url('./UI/companys/express2_23.jpg')"></div>
+            <div class="company" style="background-image: url('./UI/companys/express2_24.jpg')"></div>
+            <div class="company" style="background-image: url('./UI/companys/express2_06.jpg')"></div>
+            <div class="company" style="background-image: url('./UI/companys/express2_08.jpg')"></div>
+            <div class="company" style="background-image: url('./UI/companys/express2_10.jpg')"></div>
+        </div>
     </div>
     <!-- 底部 -->
-    <div class="footlink"></div>
+    <div class="footlink">
+        <p>地址：湖南省长沙市中国（长沙）创新设计产业园 邮政编码：410001 联系电话：0731-88888888</p>
+        <p>中国（长沙）创新设计产业园 版权所有 © 2016-2018 All Right Reserved</p>
+    </div>
     <?php getFoot()?>
