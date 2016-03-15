@@ -1,0 +1,32 @@
+html{font-size: 12px;font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;}
+body,ul,a{padding: 0;margin: 0;list-style: none;text-decoration: none;}
+div{border:1px dashed grey}
+
+#head{background-color: #fff;position: relative}
+.autoPadding{padding: 0 10%;width: 80%}
+.pinkHover{color: #202020;transition: all 1s ease}
+.pinkHover:hover{color: #e66766;transition: none}
+.udlnHover{color: #dadada;transition: all 1s ease}
+.udlnHover:hover{color:#fff;text-decoration:underline;text-shadow: 0 0 5px #fff;transition:all .5s ease}
+
+#header{margin-top: 20px;background-color: #202020;height: 40px;}
+#header>span{float: right;color: #fff;line-height: 40px;margin-left: 20px;}
+.nav{height: 50px;}
+.nav ul{float: right;height:100%;line-height: 50px;}
+.nav ul li{float: left;margin-left:20px;font-weight: 900;}
+
+.logo{position:absolute;left:10%;top:0}
+
+.banner{height: 200px;width: 100%;}
+.banner .pice{background: 50% 100% no-repeat;background-size: cover;height:100%}
+.content{margin-top: 60px;border-top: 1px solid #dadada;height: 250px;}
+.content .box{width: 45%;margin-top: 0;float: left;position: relative}
+.content .box .entrance{position: absolute;height: 60px;width: 60px;top:-30px;left: 45%;}
+.floatright{float: right!important;}
+.datepick{display: block;float: left;width: 12%;margin-right: 5%;}
+.datepick span{display: block;text-align: center;padding: 5px;}
+.datepick .day{font-size: 18px;font-weight: 900;color:#e66766 }
+.datepick .month{font-size: 14px;font-weight: 900;color:#656565;background-color: #dbdbdb}
+.newsdesc p{margin: 0;line-height: 20px;overflow: hidden}
+.newsdesc .title{color: #e66766;height: 20px;}
+.newsdesc .desc{color: #656565;height: 40px;}
