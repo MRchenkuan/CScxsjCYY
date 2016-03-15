@@ -19,10 +19,11 @@ div{border:1px dashed grey}
 
 .banner{height: 200px;width: 100%;}
 .banner .pice{background: 50% 100% no-repeat;background-size: cover;height:100%}
-.content{margin-top: 60px;border-top: 1px solid #dadada;height: 250px;}
+.content{margin-top: 60px;border-top: 1px solid #dadada;height: 250px;position:relative;padding-top: 60px;}
 .content .box{width: 45%;margin-top: 0;float: left;position: relative}
 .content .box .entrance{position: absolute;height: 60px;width: 60px;top:-30px;left: 45%;}
 .floatright{float: right!important;}
+.floatleft{float: left!important;}
 .datepick{display: block;float: left;width: 12%;margin-right: 5%;}
 .datepick span{display: block;text-align: center;padding: 5px;}
 .datepick .day{font-size: 18px;font-weight: 900;color:#e66766 }
@@ -30,3 +31,12 @@ div{border:1px dashed grey}
 .newsdesc p{margin: 0;line-height: 20px;overflow: hidden}
 .newsdesc .title{color: #e66766;height: 20px;}
 .newsdesc .desc{color: #656565;height: 40px;}
+
+
+/* 新闻首页入口 */
+.entrances{height: 60px;position: absolute;top: -30px;width: 80%;}
+.entrances .entrance{height:60px;width:45%;margin:auto; text-align: center}
+.entrances .entrance div{height:30px;width:60px;margin: auto}
+.entrances .entrance span{height:30px;width:45px;border-top: 3px solid #202020;color:#3a8fbd;padding: 0 5px;position:relative}
+.entrances .entrance:hover span:before{transition:width .3s linear;width: 100%;left:0}
+.entrances .entrance span:before{content: ' ';transition:width .3s linear; width: 0;position: absolute;top:-3px;left:auto;right: 0;border-top: 3px solid #3a8fbd}

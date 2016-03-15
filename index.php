@@ -33,8 +33,11 @@
     <!--  content  -->
     <div class="content autoPadding">
         <div class="entrances">
-            <div class="entrance">入口</div>
-            <div class="entrance">入口</div>
+            <div class="entrance floatleft">
+                <div> 媒体报道 </div>
+                <span> MORE </span>
+            </div>
+            <div class="entrance floatright">入口</div>
         </div>
         <?php getNewBox($news)?>
         <?php getNewBox($news,"floatright")?>
