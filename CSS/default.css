@@ -1,4 +1,5 @@
 html{font-size: 12px;font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;}
+body{min-width: 800px;}
 body,ul,a{padding: 0;margin: 0;list-style: none;text-decoration: none;color:#202020}
 div{border:1px dashed grey}
 
