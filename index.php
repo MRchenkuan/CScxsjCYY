@@ -104,19 +104,27 @@
         </div>
         <div class="companyIntro">
             <div class="intro">
-                <div class="express" style="background-image: url('./UI/companys/express2_06.jpg')"></div>
-                招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商
-                商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商
-                商招商招商招商招商招商<span class="nowNav"> 查看更多>> </span>
+                <div id="companysTag" class="express" style="background-image: url('./UI/companys/express2_06.jpg')"></div>
+                <p class="title">东方麦田</p>商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商招商
+                商招商招商商招商招商招商招商招商<span class="nowNav"> 查看更多>> </span>
             </div>
             <div class="links">
-                <div class="blue">招商政策</div>
-                <div class="red">招商对象</div>
-                <div class="gren">申请入驻</div>
+                <div class="blue">
+                    <p class="zhaoshang-tag iconfont icon-zhengce"></p>
+                    <p class="zhaoshang-tag">招商政策</p>
+                    </div>
+                <div class="red">
+                    <p class="zhaoshang-tag iconfont icon-zhaoshang"></p>
+                    <p class="zhaoshang-tag">招商对象</p>
+                    </div>
+                <div class="gren">
+                    <p class="zhaoshang-tag iconfont icon-jiaru"></p>
+                    <p class="zhaoshang-tag">申请入驻</p>
+                    </div>
             </div>
         </div>
 
-        <div class="companys">
+        <div id="companys" class="companys">
             <div class="company" style="background-image: url('./UI/companys/express2_06.jpg')"></div>
             <div class="company" style="background-image: url('./UI/companys/express2_08.jpg')"></div>
             <div class="company" style="background-image: url('./UI/companys/express2_10.jpg')"></div>
@@ -130,6 +138,21 @@
             <div class="company" style="background-image: url('./UI/companys/express2_08.jpg')"></div>
             <div class="company" style="background-image: url('./UI/companys/express2_10.jpg')"></div>
         </div>
+        <script>
+            var company = document.querySelector('.company');
+            var companys = document.querySelector('#companys');
+            var companysTag =document.querySelector('#companysTag');
+
+            companys.addEventListener('click',function(e){
+                console.log(e.target);
+                if(e.target.className == "company"){
+                    companysTag.style.backgroundImage = e.target.style.backgroundImage;
+                }else{
+                    console.log(e.target.className);
+                }
+
+            })
+        </script>
     </div>
     <!-- 底部 -->
     <div class="footlink">

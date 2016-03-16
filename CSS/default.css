@@ -1,5 +1,5 @@
 html{font-size: 12px;font-family: Consolas, "Liberation Mono","微软雅黑" , Menlo, Courier, monospace;}
-body{min-width: 800px;}
+body{min-width: 1024px;}
 body,ul,a{padding: 0;margin: 0;list-style: none;text-decoration: none;color:#202020}
 
 #head{background-color: #fff;position: relative}
@@ -49,7 +49,8 @@ body,ul,a{padding: 0;margin: 0;list-style: none;text-decoration: none;color:#202
 .companyIntro .intro{padding: 20px;}
 .companyIntro .express{width: 120px;height: 80px;float: left;background: 50% 50% no-repeat;background-size: contain;}
 .links{position: absolute;bottom: 0;height: 60px;width: 100%}
-.links div{float: left;width: 33.3%;height: 100%;color: #fff}
+.links div{float: left;width: 33.3%;height: 100%;color: #fff;transition: all .5s ease}
+.links div:hover{text-shadow:0 0 10px #fff;transition:none}
 .links .blue{background-color: #3a8fbd  }
 .links .red{background-color: #e84c00 }
 .links .gren{background-color: #1ab554 }
@@ -57,8 +58,14 @@ body,ul,a{padding: 0;margin: 0;list-style: none;text-decoration: none;color:#202
 .companys{width: 60%;float: right;height: 250px;}
 .company{transition: all .5s ease;float: left;width: 21%;margin: 2%;height: 60px;background-size: cover;background: 50% 50% no-repeat;box-shadow: #888 0 0 1px;border-radius: 5px;}
 .company:hover{box-shadow: #202020 0 0 5px;}
+
+.zhaoshang-tag{text-align: center;line-height: 25px;padding: 0;margin: 0;font-size: 18px}
+.intro .title{margin: 0;padding: 0;font-size: 18px;font-weight: 900}
+
 /*底部样式*/
 .introduction{background: 50% 50% no-repeat;height: 100%;}
 .footlink{padding: 20px 10%;;height: 80px;background-color: #333;color: #fff;}
+.footlink p{transition: all .5s ease}
+.footlink p:hover{text-shadow:0 0 5px #fff;transition:none}
 .footlink p{padding: 0;margin: 0;line-height: 40px}
 .bottomshadow{box-shadow: 0 5px 5px 0 #202020;}

@@ -55,6 +55,7 @@ function getHead($navNow ,$logo){
     echo '    <meta charset="UTF-8">';
     echo '    <title>'.$navNow.'</title>';
     echo '    <link href="./CSS/default.css" rel="stylesheet" type="text/css">';
+    echo '    <link href="./CSS/iconfont.css" rel="stylesheet" type="text/css">';
     echo '</head>';
     echo '<body>';
 
